@@ -52,7 +52,7 @@ nav {
     color: white;
 }
 .header{
-    background: url(/banner3.png);
+    background: url(./banner3.png);
     background-repeat:no-repeat ;
     background-position:center;
     width: 1670px;
@@ -99,7 +99,7 @@ main{
     padding-left: 862px;
     padding-top: 200px;
     padding-bottom: 300px;
-    background-image:url(/person.png);
+    background-image:url(./person.png);
     background-repeat: no-repeat;
   
 }
