@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header and navigation styles */
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.text-primary {
+    color: #fd6e0a;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 100px;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav {
+    margin: 51px 200px;
+}
+
+.btn-primary {
+    height: 64px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    color: #FFFFFF;
+    width: 79px;
+    height: 27px;
+    left: 1256px;
+    top: 68px;
+}
+.banner{
+    margin: 0 200px;
+    display: flex;
+    text-align: end;
+    padding-right: 100px;
+    padding-left: 700px;
+    padding-top: 150px;
+    color: white;
+}
+.header{
+    background: url(/banner3.png);
+    background-repeat:no-repeat ;
+    background-position:center;
+    width: 1670px;
+    height: 800px;
+   
+}
+.banner-title{
+    font-weight: 400;
+    font-size: 16px;
+}
+.banner-sub-title{
+ 
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    padding-bottom: 20px;
+   
+    
+}
+.banner-description{
+   
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.button-primary{
+    height: 64px;
+    background: #005fac;
+    border-radius: 5px;
+    color: #FFFFFF;
+    width: 130px;
+    height: 50px;
+    left: 1256px;
+    top: 68px;
+    margin-top: 0px;
+}
+main{
+    
+}
+.about{
+    padding-right: 500px;  
+    padding-left: 862px;
+    padding-top: 200px;
+    padding-bottom: 300px;
+    background-image:url(/person.png);
+    background-repeat: no-repeat;
+  
+}
+.section-description{
+    font-size: 16px;
+    margin-bottom: 20px;
+
+}
+.section-title-failure{
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 35px;
+   
+}
+
+.about .info-title{
+    font-size: 20px;
+    color:#757575
+}
+.info-description{
+    font-weight:700;
+    font-size: 20px;
+    color: #474747;
+}
+/* what i do styles */
+.what-I-do{
+   
+}
+.skills-container{
+    display: flex;
+    gap: 20px;
+    padding-left: 400px;
+    padding-top: 50px;
+    text-align: center;
+}
+.skill-title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.skill-description{
+    color: #757575;
+    margin-top: 20px;
+}
+.skill{
+    background: #ffffff;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06) ;
+    border-radius: 5px;
+    padding: 30px;
+}
+.resume{
+    margin-top: 130px;
+}
+/* Resume styles */
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+.resume .title{
+    color: #474747;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.resume .sub-title{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.resume .description{
+    color: #757575;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+}
+/* contract-style */
+.contract .section-title{
+    text-align: left;
+}
+.contract{
+    display: flex;
+    gap: 100px;
+    background-color:#151414;
+    padding: 130px 200px;
+    color: #fff8f3;
+}
+.contract input[type="text"], input[type="email"] , textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+.contract a{
+    text-decoration: none;
+}
+.button-contact{
+    height: 64px;
+    background-color:#fff8f3 ;
+    border-radius: 5px;
+    color:#005fac;
+    width: 130px;
+    height: 50px;
+    left: 1256px;
+    top: 68px;
+    margin-top: 50px;
+}
+.about-info-container{
+    font-size: 15px;
+    color: #757575;
+  
+}
+.section-title-plan{
+    
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+/* identical to box height */
+
+text-align: center;
+
+/* Dark 01 */
+
+color: #151414;
+padding-top: 50px;
+}
+.positive{
+    text-align: left;
+    margin-left: 50px;
+    font-size: 40px;
+    color: white;
+    padding-left: 300px;
+    padding-right: 800px;
+    margin-bottom: 0px;
+    
+}
+.background-img{
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    background-image: url(/gradient1.png), url(/watch.png);
+    margin-left: 10px;
+    padding-top: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.button-call{
+    height: 64px;
+    background-color:#fff8f3 ;
+    border-radius: 5px;
+    color:#005fac;
+    width: 130px;
+    height: 50px;
+   
+    top: 68px;
+    margin-top: 20px;
+    margin-left: 110px;
+    margin-right: 960px;
+    margin-bottom: 40px;
+    
+}
+.section-title-subscribe{
+    padding-bottom: 20px;
+    padding-right: 300px;
+    padding-left: 0px
+}
+.section-title-future{
+    color: ;
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+.subscribe{
+
+}
+.section-description-future{
+    font-size: 16px;
+    margin-bottom: 20px;
+    color:#757575;
+    padding-right: 400px;
+}
+.email{
+    color: #757575;
+}
+.phone{
+    color:#757575
+}
