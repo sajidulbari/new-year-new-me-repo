@@ -52,7 +52,7 @@ nav {
     color: white;
 }
 .header{
-    background: url(./banner3.png);
+    background: url(/banner3.png);
     background-repeat:no-repeat ;
     background-position:center;
     width: 1670px;
